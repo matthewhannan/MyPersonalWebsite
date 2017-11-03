@@ -1,0 +1,73 @@
+body{
+	background: url("backgrounds/backgroundGeo.png");
+	background-size: cover;
+	background-position: center;
+	
+}
+html{
+	height: 100%;
+}
+#content{
+	text-align: center;
+	padding-top: 18%;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+.container{
+	font-family: Lato;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+#first{
+	font-size: 100px;
+	font-weight: 700;
+}
+
+#navbar{
+	color:white;
+}
+
+.active:hover{
+	text-decoration: underline; 
+}
+
+h3 span {
+	color: white;
+}
+
+h3{
+	color: gray;
+}
+
+h3 span:hover{
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: white; 
+}
+
+button {
+	transition: all 0.1s ease 0s;
+}
+
+.socialMedia {
+	display: block;
+    padding-left: 34.5%;
+}
+
+div i{
+	padding-top: 45px;
+	padding-left: 30px;
+}
+
+.fa {
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+			   0px 8px 13px rgba(0,0,0,0.1),
+			   0px 18px 23px rgba(0,0,0,0.1);
+}

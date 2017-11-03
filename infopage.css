@@ -1,0 +1,69 @@
+body{
+	background: url("backgrounds/backgroundGeo2.png");	
+}
+
+img{
+	display: inline-block;
+	width: 200px;
+	float: left;
+	margin: 1.66%;
+}
+
+.influentials{
+	display: block;
+    padding-left: 140px;
+    padding-top: 10px;
+}
+
+.two{
+	width: 250px;
+	padding-top: 10px;
+}
+
+.three{
+	width: 190px;
+}
+
+.four{
+	width: 280px;
+	padding-top: 10px;
+	-ms-transform: rotate(6deg); /* IE 9 */
+    -webkit-transform: rotate(6deg); /* Chrome, Safari, Opera */
+    transform: rotate(6deg);
+}
+
+.five{
+	width: 230px;
+	padding-top: 15px;
+}
+
+.one:hover{
+	-ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    transform: rotate(9deg);
+}
+
+.two:hover{
+	-ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    transform: rotate(9deg);
+}
+
+.three:hover{
+	-ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    transform: rotate(9deg);
+}
+
+.four:hover{
+	-ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
+}
+
+.five:hover{
+	-ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    transform: rotate(9deg);
+}
+
