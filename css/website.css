@@ -89,10 +89,6 @@ div i{
 			   0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.fa fa-heart:hover {
-
-}
-
 .repoLink i {
 	margin: 3px;
 	color: red;
@@ -113,7 +109,7 @@ div i{
 	-ms-transform: rotate(9deg); /* IE 9 */
     -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
     transform: rotate(9deg);
-    
+
 }
 
 
