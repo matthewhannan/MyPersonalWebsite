@@ -45,12 +45,6 @@ h3{
 	color: gray;
 }
 
-h3 span:hover{
-	text-decoration: underline;
-	text-decoration-style: wavy;
-	text-decoration-color: white; 
-}
-
 button {
 	transition: all 0.1s ease 0s;
 }
