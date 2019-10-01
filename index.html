@@ -1,45 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="images/favicon.png">
-	<title>Matt Hannan</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/website.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12">
-			<div id="content">
-				<h1 id="first">Matthew Hannan</h1>
-				<h3>- <span>Software Developer</span> - <span>Founder</span> - <span>Hackathoner</span> - <span>Ceramics Instructor</span> - </h3>
-                <h3>- <span>Mentor</span> - <span>World Traveler</span> - <span>Artist</span> - <span>Meditation Enthusiast</span> -</h3>
-				<hr>
-				<a href="https://drive.google.com/file/d/1VtlTaEIJ0aJqmSVdQtLLcxjNnYY3hg8G/view?usp=sharing"><button class="btn btn-default btn-lg">Click to see my resume!</button></a>
-			</div>
-		</div>
-	</div>
-</div>
+  <head>
+    <meta charset="utf-8" />
 
-<div class="socialMedia">
-	<a href="https://www.facebook.com/matthew.hannan.5623"><i class="fa fa-facebook-square fa-5x" aria-hidden="true" id="fb"></i></a>
-	<a href="https://github.com/matthewhannan"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
-	<a href="https://www.linkedin.com/in/mattjhannan/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
-	<a href="https://soundcloud.com/you/likes"><i class="fa fa-soundcloud fa-5x" aria-hidden="true"></i></a>
-	<a href="https://www.instagram.com/mattjhannan/"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a>
-</div>
+    <title>Matthew Hannan :)</title>
 
-<img id="myFace" src="images/me.png">
-<!--
-<div class="repoLink">
-	<a href="https://github.com/matthewhannan/MyPersonalWebsite">Link to this repository!</a>
-	<i class="fa fa-heart" aria-hidden="true"></i>
-</div>
--->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
+    <!-- Behavioral Meta Data -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div id="scene" class="scene fill" data-pointer-events="true">
+      <div class="expand-width" data-depth="1.00">
+        <button
+          onclick="location.href='https://github.com/matthewhannan/matthewhannan.github.io';"
+        >
+          This Repository
+        </button>
+      </div>
+      <div class="expand-width" data-depth="0.80">
+        <button
+          onclick="location.href='https://www.instagram.com/mattjhannan/';"
+        >
+          Instagram
+        </button>
+      </div>
+      <div class="expand-width" data-depth="0.60">
+        <a href="mailto:matthewjhannan@gmail.com"
+          ><button>Contact Me</button></a
+        >
+      </div>
+      <div class="expand-width" data-depth="0.40">
+        <button
+          onclick="location.href='https://www.linkedin.com/in/mattjhannan/';"
+        >
+          LinkedIn
+        </button>
+      </div>
+      <div class="expand-width" data-depth="0.20">
+        <button onclick="location.href='https://github.com/matthewhannan';">
+          Github
+        </button>
+      </div>
+      <div class="expand-width" data-depth="0.00">
+        <button
+          onclick="location.href='https://drive.google.com/file/d/1EFGrtVn1GtqLy12rv8fNtxMU6pxkP6-h/view?usp=sharing';"
+        >
+          Resume
+        </button>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="parallax.min.js"></script>
+    <script>
+      var scene = document.getElementById("scene");
+      var parallax = new Parallax(scene);
+    </script>
+  </body>
 </html>
